@@ -11,7 +11,7 @@ install chrome ubuntu
 
 2. sudo apt update
 
-3. sudo apt install -f ./google-chrome-stable_current_amd64.deb
+3. sudo apt install -f ./google-chrome-stable_current_amd64.deb -y
 
 install webdriver
 
