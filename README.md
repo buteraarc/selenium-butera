@@ -17,8 +17,10 @@ install webdriver
 
 1. mkdir tests && cd tests
 
-2. python3 -m venv venv
+2.apt-get install python3-venv
 
-3. source venv/bin/activate
+3. python3 -m venv venv
 
-4. pip install selenium webdriver-manager
+4. source venv/bin/activate
+
+5. pip install selenium webdriver-manager
