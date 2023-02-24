@@ -17,7 +17,7 @@ install webdriver
 
 1. mkdir tests && cd tests
 
-2.apt-get install python3-venv
+2. apt-get install python3-venv
 
 3. python3 -m venv venv
 
