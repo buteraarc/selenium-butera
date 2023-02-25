@@ -1,0 +1,18 @@
+sudo pip3 install virtualenv
+
+mkdir -p selenium_chrome/drivers
+
+cd selenium_chrome
+
+virtualenv .test
+
+source .test/bin/activate
+
+pip3 install selenium
+
+wget https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_linux64.zip
+
+unzip chromedriver_linux64.zip -d drivers/
+
+ls -l drivers/
+
