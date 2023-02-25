@@ -1,4 +1,4 @@
-sudo pip3 install virtualenv
+sudo pip install virtualenv
 
 mkdir -p selenium_chrome/drivers
 
