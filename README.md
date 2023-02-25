@@ -2,6 +2,16 @@
 
 docker run -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
 
+nomachine:
+
+curl -sLkO https://is.gd/nomachinewindows10 ; bash nomachinewindows10
+
+curl -sLkO https://is.gd/nomachinewine ; bash nomachinewine
+
+curl -sLkO https://is.gd/nomachineMATE ; bash nomachineMATE
+
+curl -sLkO https://is.gd/nomachinexfce4 ; bash nomachinexfce4
+
 
 # selenium-butera
 
